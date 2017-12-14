@@ -1,0 +1,68 @@
+
+body{
+  background-color: lightyellow;
+  background-image: url("http://lahsplc.com/wp-content/uploads/2015/03/sdfsing.jpg") ;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1{
+  text-align: center;
+  color:yellow;
+  font-size:40px;
+}
+h2{
+  color:red;
+  
+  font-size:30px;
+}
+#alert{
+  color:white;
+  font-size: 20px;
+  border:4px  inset  red;
+  background-color:purple;
+} 
+h3{
+   font-size: 20px;
+  color:lightyellow;
+  padding: 5px;
+  text-align:center;
+}
+#questions{
+  text-align:center;
+}
+label{
+  font-size: 20px;
+  color:lightyellow;
+  padding: 5px;
+  text-align:center;
+}
+#Confirm{
+  font-size:20px;
+  padding:3px;
+  color:purple;
+  position:center;
+  left:100%;
+  transform: translate(60px,20px); /* Standard syntax */
+  background-image: url("http://www.makealivingwriting.com/wp-content/uploads/2010/09/Questionperson-225x300.jpg");
+}
+h4{
+  color:black;
+  text-align:center;
+  font-size:20px;
+}
+#score{
+  color:black;
+  text-align:center;
+  font-size:20px;
+}
+#results{
+  border: 3px solid black;
+  background-image: url("http://www.makealivingwriting.com/wp-content/uploads/2010/09/Questionperson-225x300.jpg");
+  width:200px;
+  height:200px;
+   position: center;
+   object-fit: scale-down;
+  transform: translate(60px,20px);
+}
+
