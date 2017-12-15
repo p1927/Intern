@@ -19,7 +19,7 @@ h1{
   font-size: 50px;
 }
 
-.flightList{
+.trainList{
   background-color: #474D4F;
   padding: 20px;
   border-radius:12px
@@ -32,28 +32,28 @@ h3{
   font-size: 35px;
 }
 
-.flightHeader{
+.trainHeader{
   background:#555E5F;
   padding: 10px;
   border-radius:12px;
   color:#0AB5D4;
 }
-.flightsMain{
+.trainsMain{
   padding-top: 25px;
   color:white;
 }
 
-.flight{
+.train{
   padding:5px;
   margin: 10px;
   border-color: #98A0A2;
 }
 
-flight:hover:{
+train:hover:{
   opacity: 0.6;
 }
 
-.flight {
+.train {
 transition: .5s;
 opacity: 1;
   border:1px;
@@ -61,7 +61,7 @@ opacity: 1;
   border-radius:20px;
     border-color: #98A0A2;
 }
-.flight:hover {
+.train:hover {
   background-color: #202627;
   color:white;
   transform:scale(1.1);
@@ -100,7 +100,7 @@ input{
   
 }
 
-.flightcopy {
+.traincopy {
 transition: .5s;
 opacity: 1;
   border:1px;
@@ -109,7 +109,7 @@ opacity: 1;
     border-color: #98A0A2;
   padding:15px;
 }
-.flightcopy:hover {
+.traincopy:hover {
   background-color: #202627;
   color:white;
   transform:scale(1.1);

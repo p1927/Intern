@@ -51,10 +51,10 @@ class ContactManager {
 	}
 	
 	addTestData() {
-		var c1 = new Contact("Jimi Hendrix", "jimi@rip.com");
-  		var c2 = new Contact("Robert Fripp", "robert.fripp@kingcrimson.com");
-  		var c3 = new Contact("Angus Young", "angus@acdc.com");
-  		var c4 = new Contact("Arnold Schwarzenneger", "T2@terminator.com");
+		var c1 = new Contact("Shane Warne", "shane@gmail.com");
+  		var c2 = new Contact("Robert Fripp", "robert.fripp@gmail.com");
+  		var c3 = new Contact("Angus Young", "angus@gmail.com");
+  		var c4 = new Contact("Arnold Schwarzenneger", "arnold@gmail.com");
 		
 		this.add(c1);
 		this.add(c2);
