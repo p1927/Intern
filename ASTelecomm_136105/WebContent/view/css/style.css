@@ -1,0 +1,31 @@
+table {
+  width:100%;
+  border:1px solid black;
+  border-collapse: collapse;
+
+}
+
+tr, th, td {
+  border:1px solid;
+  font-family:courier;
+}
+
+td {
+  text-align:center;
+  padding:10px;
+
+}
+
+input {
+  /* float:right; */
+  margin-left: 50px; 
+}
+
+#tableDiv {
+  overflow: scroll;
+}
+
+#tableDiv { 
+  height: 600px; 
+  /* border: 1px solid blue; */
+}
