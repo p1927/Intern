@@ -1,8 +1,0 @@
-{
-	"employees":
-	[
-		{"userId":"12345","pass":"aaaa","name":"Ruben Barajas"}, 
-		{"userId":"11111","pass":"bbbb","name":"Pink Guy"},
-		{"userId":"22222","pass":"cccc","name":"Chin Chin"}
-	]
-}
