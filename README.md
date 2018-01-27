@@ -18,7 +18,7 @@ Password: 123<br />
 ---------------------------------------------------------------------------------------
 This app is built using MEAN stack.<br />
 Database: MongoDB.<br />
-Server:   Express Middlewares<br />
+Server:   Express Middlewares implemented REST API<br />
 UI:       Angular 2<br />
 Platform: NodeJS<br />
 
@@ -30,3 +30,6 @@ Students Dashboard : Displays a list of applicable jobs posted by different comp
 Companies Dashboard : Displays the jobs they have posted and has a link to see which students have applied for the job.<br/>
 Password hashing and Verification using bcrypt.<br />
 Authentication done using passport.<br />
+
+Open NodeJS_snapshots.pdf for screenshots. 
+----------------------------------------------------------------------------------------
