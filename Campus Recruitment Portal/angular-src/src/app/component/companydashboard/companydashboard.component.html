@@ -1,0 +1,13 @@
+<app-companynavbar></app-companynavbar>
+<div class="row">
+	<h3>Jobs Posted</h3>
+	<div class="col-md-4 rounded" *ngFor="let job of jobs_posted">
+		<div class="login-card">
+		<h3><p>{{job.title}}</p></h3>
+    <small class="text-muted">{{job.location}}</small>
+    <p style="height: 3em; overflow: hidden;">{{job.description}}</p>
+    <small class="text-muted">CTC:  Rs {{job.expected_CTC}} lakhs</small>
+		  <button class="btn btn-primary btn-sm pull-right" (click)="showAppliedStudent(job._id)">Show Students</button>
+		  </div>
+	</div>
+</div>

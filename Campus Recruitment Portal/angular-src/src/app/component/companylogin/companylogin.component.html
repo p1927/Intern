@@ -1,0 +1,14 @@
+<div class="login-card">
+	<form (submit)="onCompanyLogin()">
+        <h2 class="form-signin-heading" align="center">Company Login</h2>
+
+        <input type="email" id="inputEmail" [(ngModel)]="email" name="email" class="form-control" placeholder="Email address" required autofocus>
+
+        <input type="password" id="inputPassword" [(ngModel)]="password" name="password" class="form-control" placeholder="Password" required>
+        
+       
+        <button class="login login-submit" type="submit">Login</button>
+         <a [routerLink]="['/company/register']">Register new account</a>
+    </form>
+</div>
+

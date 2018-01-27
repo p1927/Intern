@@ -1,0 +1,32 @@
+{
+  "name": "Campus_Recruitment",
+  "version": "1.0.0",
+  "description": "Campus Recruitment Portal",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongoDB",
+    "mongoose",
+    "passportjs",
+    "angular2",
+    "angularFlashMessages"
+  ],
+  "author": "Pratyush Mishra",
+  "license": "ISC",
+  "dependencies": {
+    "angular2-jwt": "^0.2.3",
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "cors": "*",
+    "express": "^4.15.2",
+    "jsonwebtoken": "*",
+    "mongoose": "*",
+    "passport": "*",
+    "passport-jwt": "*"
+  }
+}

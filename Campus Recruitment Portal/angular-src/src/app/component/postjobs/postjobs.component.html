@@ -1,0 +1,14 @@
+<app-companynavbar></app-companynavbar>
+ <div class="login-card">
+
+  <form class="form-signin" (submit)="postJob()">
+    <h2 class="form-signin-heading">Fill post details</h2><br>
+
+    <input class="form-control" [(ngModel)]="title" name="title" placeholder="Job title" required autofocus>
+    <input class="form-control" [(ngModel)]="location" name="location" placeholder="Location" required >
+    <textarea class="form-control" [(ngModel)]="description" name="description" id="exampleTextarea" rows="5" placeholder="Job description" style="resize:vertical"></textarea>
+    <input class="form-control" [(ngModel)]="expected_CTC" name="expected_CTC" placeholder="Expected CTC" required >
+
+    <button class="login login-submit" type="submit">Post job</button>
+  </form>
+</div>

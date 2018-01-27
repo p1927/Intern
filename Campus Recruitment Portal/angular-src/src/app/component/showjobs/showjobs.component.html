@@ -1,0 +1,11 @@
+<app-companynavbar></app-companynavbar>
+<div class="row">
+	<h3>Interested Students</h3><br>
+	<div class="col-md-4 rounded" *ngFor="let student of students">
+		<div class="login-card">
+		<h4>{{student.name}}</h4>
+    <small class="text-muted">{{student.email_address}}</small><br>
+    <p>CGPA: {{student.cgpa}}/10</p>
+</div>
+	</div>
+</div>

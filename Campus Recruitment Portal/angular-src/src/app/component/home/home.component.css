@@ -1,0 +1,16 @@
+.panel {
+     background-color: #4289f4 !important;
+     color: white;
+     background-color: #2F2727;
+  opacity:0.8;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  /* Safari 4-5, Chrome 1-9 */
+  /* Can't specify a percentage size? Laaaaaame. */
+  background: -webkit-gradient(radial, center center, 0, center center, 460, from(#1a82f7), to(#2F2727));
+
+  /* Safari 5.1+, Chrome 10+ */
+  background: -webkit-radial-gradient(circle, #1a82f7, #2F2727);
+
+}
